@@ -1,0 +1,24 @@
+{
+  "name": "Hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielSilva23/SimpleDeploy.git",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielSilva23/SimpleDeploy/issues"
+  },
+  "homepage": "https://github.com/DanielSilva23/SimpleDeploy#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
